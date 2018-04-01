@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/bg_all">
+     <RelativeLayout 
+  	    android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/top"
+        android:layout_alignParentTop="true"
+         >
+         <Button
+            android:id="@+id/healthinfo_back"
+            android:layout_width="24dip"
+	        android:layout_height="20dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back_btn" />
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:text="运动小知识"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+	   </RelativeLayout>
+
+	<RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="8dip"
+
+         >
+
+         <ImageView
+             android:id="@+id/healthinfo_logo"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:scaleType="centerInside"
+             android:src="@drawable/title"
+             />
+         <TextView
+             android:id="@+id/healthinfo_name"
+             style="@style/TextTheme"
+             android:layout_toRightOf="@id/healthinfo_logo"
+             android:text="小    编"
+             android:gravity="center_vertical"
+             android:layout_alignTop="@id/healthinfo_logo"
+             android:layout_alignBottom="@id/healthinfo_logo"
+             android:layout_marginLeft="8dip"
+             android:textColor="@color/gray"
+             />
+         <TextView
+             android:id="@+id/healthcontent_text"
+
+             style="@style/TextTheme"
+             android:text="生命在于矛盾，在于运动，一旦矛盾消除运动停止，生命也就结束了。"
+             android:layout_below="@id/healthinfo_logo"
+             android:layout_margin="4dp"
+             android:textColor="@color/gray"
+             />
+         <LinearLayout
+             android:id="@+id/healthcontent_image"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_below="@id/healthcontent_text"
+             android:layout_marginLeft="4dip"
+             android:layout_marginRight="4dip"
+             android:paddingTop="8dp"
+             android:paddingBottom="8dp">
+             <ImageView
+                 android:id="@+id/health_photo"
+                 android:layout_width="250dp"
+                 android:layout_height="200dp"
+                 android:scaleType="fitCenter"
+                 android:padding="10dp"
+                   android:visibility="gone"
+                 android:src="@drawable/bg_pic_loading"/>
+         </LinearLayout>
+     </RelativeLayout>
+
+</LinearLayout>

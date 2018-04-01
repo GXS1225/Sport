@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView 
+            android:id="@+id/pkfunjin_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/title"/>
+        <TextView 
+            android:id="@+id/pkfunjin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="USer 没有网名了"
+            android:layout_alignTop="@id/pkfunjin_icon"
+            android:layout_alignBottom="@id/pkfunjin_icon"
+            android:layout_toRightOf="@id/pkfunjin_icon"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffa8835c"
+            android:textSize="15sp"/>
+        <TextView 
+            android:id="@+id/pkfunjin_juli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pkfunjin_icon"
+            android:layout_alignBottom="@id/pkfunjin_name"
+            android:textColor="#ffa8835c"
+            android:layout_marginLeft="5dp"
+            android:text="相距 1.2km"/>
+        <TextView 
+            android:id="@+id/pkfunjin_guanzhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/pkfunjin_icon"
+            android:layout_alignBottom="@id/pkfunjin_icon"
+            android:layout_alignParentRight="true"
+            android:text=" PK   "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="#ffa8835c"
+            />
+    </RelativeLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/aliceblue"/>
+
+</LinearLayout>
+

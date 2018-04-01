@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-Wechat-Favorite-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3bcd4bb7a08b5eca7c5b10c538bf1a466853dee3">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-3.0.0_5c03505f3124c0ff37d3e183b5e07a7c862132a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Scorpio\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0_18df7ac92fd89abf6a728e1ae98482ff49d9e390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\MobTools-2017.0608.1618.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fcd18b5e54c100ded555e92c371c16bea49002ed">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\MobTools-2017.0608.1618_4bb7aad6a0fff6665db5c70d0b1933797de087d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\BmobSDK_V3.4.2_0727.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="630708d2d8d0e1d4d59142841a02bea0fe4890ca">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.2_0727_95a4e26298f931aab1503a1494cb82d39eb086c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\locSDK_5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="389047997db28fcb848dc4247c5590a08b7ff769">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\locSDK_5.2_e869b160b87af378e2cdaaaa86515aa01f154aa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\gson-2.2.4_6e345a5f0aa377d1b367b99dc82d8f170c939f0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\Bmob_Push_V0.6beta_20150408.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="db21ec99c2c7bf91c67bf80f5c5c49a92dd0562e">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\Bmob_Push_V0.6beta_20150408_f47a39273c5a15130d61555e53c1d0b9dd117329.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Scorpio\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\glide-3.5.2_76b575f323dd58858589bcf8a7404cebda737042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-Wechat-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="549dda1a4abc3aa8914df75649f660eaad51c85c">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-3.0.0_a04724b625a114d0678a8b493a5a4596b50ffaec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-Core-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="27dcf5889fee23416fadfeae3d1d11f3d06b27d1">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-3.0.0_b9e3850fb823677f74ca1a43f5be53cbd09bb3a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\filechoose.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="30877bca7d1d9f09d7bc8b6ec3e6f5cf0fcf27fb">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\filechoose_cd63788a528445e559bb7433f540f87bbe182c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_71f2024f4a84d1e1bd62979aa36eb8e0d4c7e91a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.1_35c5f9945d3bcc5f6b3f2eb15d1cb456a56e8f4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-Wechat-Core-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="711000ab447be3b66d57e5c5ac99ac74f1f93e1b">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-3.0.0_d5a761b5f48d3256af2fdd878fb5c441e4595c88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\MobCommons-2017.0608.1618.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="26d8b21098208806ac92abba3cbbf9859cda903a">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0608.1618_2809c3eafe23ce8012ea10031bc92700bd9afd7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-QQ-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="79d8de16734d7a07503d206fe3a93ba393e3b573">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-3.0.0_1df5f560faafcd91741575f5b4eca880bd088be3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-SinaWeibo-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="989bcd864618e19f45cc130a5a2c708cd28c44d4">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-3.0.0_4bfeb00cc538ba4a0908e5b782f868d43b2014a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_52e50291feab00e6f7b022952fa30222ff15b83f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\litepal-1.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="36e5b16977b343ddce8966e1362256ef1b3baf2d">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\litepal-1.2.1_88d9d770f15449223c4b97ced661878fae004f18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.0.0_bcc5513126fd23ed3c42251a4084f4a967a16774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\baidumapapi_v3_5_0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ba79500bb64218f10b5fd0d5ea54503b2bf6b3bb">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_5_0_dd5e339b606767b5d1fc55e0ffe83a7203bbff4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android file\q\Running\app\libs\ShareSDK-Wechat-Moments-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d844eb32f3fea6d58c566fe7a519328a01873a15">
+        <dex dex="D:\Android file\q\Running\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-3.0.0_689e146097c059595f0e8623cf34f9ee1480456c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addsport_item3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/food_icon"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:src="@drawable/find_food"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/light_grey"
+            android:id="@+id/food_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="食物"
+            android:layout_toRightOf="@id/food_icon"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:textSize="16sp"
+            android:textColor="#FFA042"
+            android:id="@+id/food_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20.0dip"
+            android:text="----"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="#FFA042" android:layout_width="fill_parent" android:layout_height="1.0dip"
+        />
+</LinearLayout>
+
+
+

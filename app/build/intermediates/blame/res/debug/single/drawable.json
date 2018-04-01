@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_group.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_group.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_edittext_account.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\selector_edittext_account.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_border_pop_gray_bottom.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\radius_border_pop_gray_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_left_btn.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\home_left_btn.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_canlender.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_canlender.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_new_selector.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\radio_new_selector.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_right_btn.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\home_right_btn.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_seek.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_seek.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_alert_dialog_button.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\btn_style_alert_dialog_button.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ensure_button_cancel_bg.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\ensure_button_cancel_bg.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\numberseekbar_background.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\numberseekbar_background.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_sport.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_sport.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_find_dengji.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_find_dengji.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_bg_shape.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\edittext_bg_shape.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_bg.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\selector_bg.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_btn.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\back_btn.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_find.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_find.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commit_btn.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\commit_btn.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_map.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_map.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_addpic_unfocused2.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\icon_addpic_unfocused2.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_food.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_food.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_ranking2.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_ranking2.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radius_border_pop_gray_title.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\radius_border_pop_gray_title.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_bar.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\thumb_bar.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addsport_center_selector.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\addsport_center_selector.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_rankinglist.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_rankinglist.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_calendar.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\selector_calendar.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_logout.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\selector_logout.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addsport_right_tab.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\addsport_right_tab.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jixu.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\jixu.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addsport_center_tab.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\addsport_center_tab.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noselect.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\noselect.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zanting.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\zanting.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camear_popbtn.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\camear_popbtn.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_alert_dialog_special.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\btn_style_alert_dialog_special.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_home.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_home.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_addphoto.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\item_addphoto.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wp_text_selector.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\wp_text_selector.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_sport_view.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_sport_view.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_match.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_match.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_win.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_win.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_recomm_selector.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\radio_recomm_selector.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_pic_choose_selector.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\camera_pic_choose_selector.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ensure_button_sure_bg.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\ensure_button_sure_bg.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bind_cancel.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\btn_bind_cancel.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_myfriend.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_myfriend.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addsport_left_tab.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\addsport_left_tab.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_topic_selector.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\radio_topic_selector.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_start.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_start.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_weight.png",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\find_weight.png"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_setting.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\bg_setting.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_button.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\search_button.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_message.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\circle_message.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_alert_dialog_cancel.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable\\btn_style_alert_dialog_cancel.xml"
+    }
+]

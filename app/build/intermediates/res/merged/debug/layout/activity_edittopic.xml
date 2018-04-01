@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@drawable/bg_all">
+   	<RelativeLayout 
+   	    	android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/top"
+            android:layout_alignParentTop="true"
+             >
+            <Button
+                android:id="@+id/back_top"
+                android:layout_width="23dip"
+                android:layout_height="18dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/back_btn" />
+
+            <TextView
+                android:id="@+id/add_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+               android:layout_centerInParent="true"
+                android:text="发表话题"
+                android:textColor="#ffffff"
+                android:textSize="18.5dip" />
+
+            <Button
+                android:id="@+id/add_topic"
+                android:layout_width="23dip"
+                android:layout_height="18dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/commit_btn" />
+        </RelativeLayout>  
+   	
+        <LinearLayout 
+            android:layout_below="@id/title"
+            android:id="@+id/topicname_lay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            
+        </LinearLayout>
+       
+		<LinearLayout
+		    android:layout_below="@id/topicname_lay"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+             <EditText
+   	        android:id="@+id/feel_topic"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:background="@drawable/edittext_bg_shape"
+            android:gravity="top"
+            android:hint="是不是有些感受想说......."
+            android:inputType="textMultiLine"
+            android:minHeight="170.0dip"
+            android:padding="14.0dip"
+            android:textColor="@color/black"
+            android:textColorHint="#ffcbcbcb"
+            android:textSize="16.0sp" />
+	    	<GridView 
+	    	    android:layout_marginTop="10dp"
+	        android:id="@+id/camear_edit_grid"
+	        android:layout_width="290dp"
+	        android:layout_height="350dp"
+	        android:layout_marginLeft="15dp"
+	        android:horizontalSpacing="3dp"        
+	        android:numColumns="4"
+	        android:scrollbars="none"
+	        android:verticalSpacing="5dp" >
+	    	</GridView>
+	    </LinearLayout>
+
+</RelativeLayout>

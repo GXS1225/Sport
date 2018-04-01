@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout 
+        android:id="@id/home_circle"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:visibility="visible"
+        android:gravity="center"
+        >
+      	<ImageView 
+      	    android:id="@id/home_circle_bottom"
+      	    android:layout_width="180dp"
+      	    android:layout_height="180dp"
+      	    android:layout_marginTop="18.0dip"
+      	    android:layout_centerHorizontal="true"
+      	    android:src="@drawable/home_circle_bottom"/>
+      	<ImageView 
+      	    android:id="@id/home_circle_top"
+      	    android:layout_width="180dp"
+      	    android:layout_height="180dip"
+      	    android:layout_centerHorizontal="true"
+      	    android:src="@drawable/home_circle_full"
+      	    />  
+      	 <ImageView 
+      	     android:id="@id/home_circle_top"
+      	     android:layout_width="180dp"
+      	     android:layout_height="180dp"
+      	     android:layout_marginTop="26dip"
+      	     android:layout_centerHorizontal="true"
+      	     android:src="@drawable/home_circle_top"/>
+      	 <edu.bzu.project.view.CircleProgressBar
+	        android:id="@id/home_circle_Bar"
+	        android:layout_width="200dip"
+	        android:layout_height="200dip"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:layout_alignTop="@id/home_circle_top"
+	        android:layout_alignBottom="@id/home_circle_top" />
+	      	 
+      		<RelativeLayout 
+      	     android:id="@id/home_circle_content"
+      	     android:layout_width="wrap_content"
+      	     android:layout_height="wrap_content"
+      	     android:layout_alignLeft="@id/home_circle_top"
+      	     android:layout_alignTop="@id/home_circle_top"
+      	     android:layout_alignRight="@id/home_circle_top"
+      	     android:layout_alignBottom="@id/home_circle_top"
+      	     android:layout_centerHorizontal="true"
+      	     android:clickable="true"
+      	     android:gravity="center">
+      	     <ImageView 
+      	     	android:id="@id/home_circle_full"
+      	     	android:layout_width="138dip"
+      	     	android:layout_height="138dip"
+      	     	android:layout_centerHorizontal="true"
+      	     	android:src="@drawable/home_inout"
+      	     		    />
+      	   
+      	     <TextView 
+      	         android:id="@id/home_circle_bushu"
+      	         android:layout_width="wrap_content"
+      	         android:layout_height="wrap_content"
+      	         android:layout_marginTop="25dip"
+      	         android:layout_centerHorizontal="true"
+      	         android:text="@string/home_bushu"
+      	         android:textColor="@color/light_grey"
+      	         android:textSize="16sp"
+      	         />
+      	     <TextView 
+      	         android:id="@id/hone_circle_current"
+      	         android:layout_width="wrap_content"
+      	         android:layout_height="wrap_content"
+      	         android:layout_below="@id/home_circle_bushu"
+      	         android:layout_centerHorizontal="true"
+      	         android:text=""
+      	         android:textColor="@color/grey_1"
+      	         android:textSize="44sp"
+      	         />
+      	     <TextView 
+      	         android:id="@id/home_circle_mubiao"
+      	         android:layout_width="wrap_content"
+      	         android:layout_height="wrap_content"
+      	         android:layout_below="@id/hone_circle_current"
+      	         android:layout_centerHorizontal="true"
+      	         android:text="@string/home_mubiao"
+      	         android:textColor="@color/light_grey"
+      	         android:textSize="16sp"/>
+      	     
+      	 </RelativeLayout>
+    </RelativeLayout>
+
+    
+    <LinearLayout
+        android:id="@id/home_tishi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_circle"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:src="@drawable/home_day_tip_icon" />
+
+        <TextView
+            android:id="@id/home_tishi_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/middle_grey"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@id/home_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_tishi"
+        android:layout_marginTop="20.0dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@id/home_tab_bushu"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center_horizontal" >
+
+            <RelativeLayout
+                android:id="@id/home_tab_bushu_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" >
+                <TextView
+                    android:id="@+id/home_tab_bushu_top_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/home_tab_bushu_top_icon"
+                    android:tag="icon_desc"
+                    android:text="距离:公里 "
+                    android:textColor="@color/light_grey"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+           	<RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_tab_bushu_top"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/home_tab_bushu_btm_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:tag="value"
+                    android:text="300"
+                    android:textColor="@color/orange"
+                    android:textSize="26.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@id/home_tab_weather"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center_horizontal" >
+			<RelativeLayout
+	                android:id="@id/home_tab_weather_top"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:gravity="center" >
+	            <TextView
+	                android:id="@id/home_tab_weather_top_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentTop="true"
+	                android:layout_toRightOf="@id/home_tab_weather_top_icon"
+	                android:text="热量:千卡"
+	                android:textColor="@color/light_grey"
+	                android:textSize="15.0sp" />
+			</RelativeLayout>
+	            <TextView
+	                android:id="@id/home_tab_weather_value"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@id/home_tab_weather_top"
+	                android:gravity="center_horizontal"
+	                android:text="122"
+                    android:textColor="@color/orange"	        
+	                android:textSize="26.0sp" />
+	        </RelativeLayout>
+	        
+        <RelativeLayout
+            android:id="@+id/home_tab_shijian"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center_horizontal" >
+			<RelativeLayout
+	                android:id="@+id/home_tab_shijian_top"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:gravity="center" >
+	            <TextView
+	                android:id="@+id/home_tab_shijian_top_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentTop="true"
+	                android:layout_toRightOf="@id/home_tab_weather_top_icon"
+	                android:text="活跃:分钟"
+	                android:textColor="@color/light_grey"
+	                android:textSize="15.0sp" />
+			</RelativeLayout>
+	            <TextView
+	                android:id="@+id/home_tab_shijian_value"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@id/home_tab_shijian_top"
+	                android:gravity="center_horizontal"
+	                android:text="20"
+                    android:textColor="@color/orange"	                
+	                android:textSize="26.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/home_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/home_circle"
+        android:layout_marginTop="130.0dip"
+        android:background="@color/clear"
+        android:padding="20.0dip"
+        android:src="@drawable/home_left_btn"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/home_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/home_circle"
+        android:layout_marginTop="130.0dip"
+        android:background="@color/clear"
+        android:padding="20.0dip"
+        android:src="@drawable/home_right_btn" 
+        android:visibility="gone"/>
+</RelativeLayout>

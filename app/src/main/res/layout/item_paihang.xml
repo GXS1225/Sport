@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/paihang_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:src="@drawable/user_icon_default_main" />
+
+        <TextView
+            android:id="@+id/paihang_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/paihang_icon"
+            android:layout_alignTop="@id/paihang_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/paihang_icon"
+            android:gravity="center"
+            android:text="USer 没有网名了"
+            android:textColor="#ffa8835c"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/paihang_juli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/paihang_name"
+            android:layout_toRightOf="@id/paihang_icon"
+            android:text="相距 1.2km"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffa8835c" />
+
+        <TextView
+            android:id="@+id/paihang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/paihang_icon"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/paihang_icon"
+            android:layout_marginRight="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:text=" 第一名   "
+            android:textColor="#ffa8835c"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

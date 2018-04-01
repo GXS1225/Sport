@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_sport_lay"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/gainsboro">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton 
+            android:id="@+id/create_sport"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/item_sport_add"/>
+        <TextView 
+            android:layout_marginLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加新的运动"
+            android:textColor="@color/Chocolate"
+            android:textSize="@dimen/mq_size17"/>
+    </LinearLayout>
+
+</LinearLayout>

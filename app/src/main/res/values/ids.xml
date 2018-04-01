@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item type="id" name="activity_fragment"></item>
+    <item type="id" name="myTabView"></item>
+    
+    <!-- 底部导航的id -->
+   	<item type="id" name="home"></item>
+   	<item type="id" name="group"></item>
+   	<item type="id" name="start"></item>
+   	<item type="id" name="find"></item>
+   	<item type="id" name="setting"></item>
+   	<!-- 底部导航 -->
+   	<item type="id" name="tabitem_name"></item>
+   	<item type="id" name="tabitem_indacate"></item>
+   	<!-- homeFragment -->
+   	<item type="id" name="home_circle"></item>
+   	<item type="id" name="home_circle_bottom"></item>
+   	<item type="id" name="home_circle_top"></item>
+   	<item type="id" name="home_circle_full"></item>
+   	<item type="id" name="home_inout"></item>
+   	<item type="id" name="home_circle_Bar"></item>
+   	<item type="id" name="home_circle_content"></item>
+   	<item type="id" name="home_circle_inout"></item>
+   	<item type="id" name="home_circle_bushu"></item>
+   	<item type="id" name="home_circle_mubiao"></item>
+   	<item type="id" name="hone_circle_current"></item>
+   	<item type="id" name="home_tishi"></item>
+   	<item type="id" name="home_tishi_text"></item>
+   	<item type="id" name="home_tab"></item>
+   	<item type="id" name="home_tab_bushu"></item>
+   	<item type="id" name="home_tab_bushu_top"></item>
+   	<item type="id" name="home_tab_bushu_top_icon"></item>
+   	<item type="id" name="home_tab_bushu_btm_value"></item>
+   	<item type="id" name="home_tab_weather"></item>
+   	<item type="id" name="home_tab_weather_top"></item>
+   	<item type="id" name="home_tab_weather_top_icon"></item>
+   	<item type="id" name="home_tab_weather_top_text"></item>
+   	<item type="id" name="home_tab_weather_value"></item>
+   	<item type="id" name="home_viewpage"></item>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<litepal>  
+    <dbname value="sportProject" ></dbname>  <!-- 数据库名 -->
+  
+    <version value="3" ></version>  <!-- 版本号 -->
+  
+    <list>  <!-- 用于设定所有的映射模型 -->
+      <!--<mapping class="com.com.bzu.com.User"></mapping>   -->	
+        <mapping class="edu.bzu.project.domain.Sport_w"></mapping>
+        <mapping class="edu.bzu.project.domain.Userinfo"></mapping>
+        <mapping class="edu.bzu.project.domain.Sport_add"></mapping>
+        <mapping class="edu.bzu.project.domain.Sport_item"></mapping>
+        <mapping class="edu.bzu.project.domain.Pedometer"></mapping>
+    </list>  
+</litepal>  

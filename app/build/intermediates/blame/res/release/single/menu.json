@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\menu\\create_ecercise.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\menu\\create_ecercise.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\menu\\add_sport_.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\menu\\add_sport_.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\menu\\look_sport_.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\menu\\look_sport_.xml"
+    }
+]

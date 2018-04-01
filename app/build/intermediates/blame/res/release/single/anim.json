@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\traslate_btn.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\traslate_btn.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\home_circlealpha.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\home_circlealpha.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_left_in.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\tutorail_lrs.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\tutorail_lrs.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade_in.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\tutorail_scalate_top.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\tutorail_scalate_top.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\arrowrote.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\arrowrote.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\traslate_btn1.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\traslate_btn1.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\btn_rotate.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\btn_rotate.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\tutorail_lr.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\tutorail_lr.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_right_out.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_right_in.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\activity_translate_out.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\activity_translate_out.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\activity_translate_in.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\activity_translate_in.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\tutorail_bottom.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\tutorail_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\tutorail_rotate.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\tutorail_rotate.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_left_out.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\anim\\fade_out.xml"
+    }
+]

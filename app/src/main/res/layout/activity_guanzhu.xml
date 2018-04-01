@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/bg_all">
+    <RelativeLayout 
+    	    	android:id="@+id/title"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dip"
+	            android:background="@drawable/top"
+	            android:layout_alignParentTop="true"
+	             >
+	            <Button
+	                android:id="@+id/guanzhu_back"
+	                android:layout_width="24dip"
+	                android:layout_height="20dip"
+	                android:layout_alignParentLeft="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginLeft="10dip"
+	                android:background="@drawable/back_btn" />
+	
+	            <TextView
+	                android:id="@+id/guanzhu_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical"
+	               android:layout_centerInParent="true"
+	                android:text="我的关注"
+	                android:textColor="#ffffff"
+	                android:textSize="18.5dip" />
+	        </RelativeLayout>
+	 <ListView 
+	     android:id="@+id/listview_guanzhu"
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent">
+	 </ListView>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@color/gainsboro">
+    	<RelativeLayout 
+    	    	android:id="@+id/title"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dip"
+	            android:background="@drawable/top"
+	            android:layout_alignParentTop="true"
+	             >
+	            <Button
+	                android:id="@+id/addsport_back"
+	                android:layout_width="23dip"
+                    android:layout_height="18dip"
+	                android:layout_alignParentLeft="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginLeft="10dip"
+	                android:background="@drawable/back_btn" />
+	
+	            <TextView
+	                android:id="@+id/add_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical"
+	               android:layout_centerInParent="true"
+	                android:text="创建新运动"
+	                android:textColor="#ffffff"
+	                android:textSize="18.5dip" />
+	
+	            <Button
+	                android:id="@+id/addsport_add"
+	                android:layout_width="23dip"
+                    android:layout_height="18dip"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="10dip"
+	                android:background="@drawable/commit_btn" />
+	    </RelativeLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_below="@id/title"
+	        android:gravity="center_vertical"
+	        android:layout_marginTop="20dp"
+	        android:padding="10dp">
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content">
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="名称:"
+	                android:textSize="@dimen/mq_size16"
+	                />
+	            <EditText 
+	                android:id="@+id/create_name"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:minWidth="200dp"
+	               />
+	        </LinearLayout>
+	        <TextView 
+	            android:layout_marginTop="5dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="1px"
+	            android:background="@color/light_grey"/>
+	         <LinearLayout 
+	            android:layout_marginTop="5dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            >
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="热量:"
+	                android:textSize="@dimen/mq_size14"
+	                />
+	            <EditText 
+	                android:id="@+id/create_qianka"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:minWidth="170dp"
+	               />
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="千卡/时"
+	                android:textColor="@color/light_grey"
+	                android:textSize="@dimen/mq_size12"
+	                android:layout_gravity="right|center"/>
+	        </LinearLayout>
+	        <TextView 
+	            android:layout_marginTop="5dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="1px"
+	            android:background="@color/light_grey"/>
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="40dp"
+	            android:layout_gravity="center"
+	            android:textColor="@color/light_grey"
+	            android:text="开启你的运动之旅吧！"/>
+	    </LinearLayout>
+	   
+	        
+</RelativeLayout>

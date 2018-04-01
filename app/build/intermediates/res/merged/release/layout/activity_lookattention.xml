@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+    <RelativeLayout
+        android:id="@+id/friend_attention"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/top"
+        android:layout_alignParentTop="true">
+        <Button
+            android:id="@+id/friend_back"
+            android:layout_width="24dip"
+            android:layout_height="20dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/add_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:text="查找好友"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:orientation="horizontal"
+        android:padding="5.0dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/ic_preference_single_normal" >
+
+            <EditText
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25.0dip"
+                android:background="@null"
+                android:drawableLeft="@drawable/search_bar_icon_normal"
+                android:hint="请输入好友名称"
+                android:maxLength="21"
+                android:singleLine="true"
+                android:textColor="#ff909090" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="14.0dip"
+                android:src="@drawable/cancel"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.0dip"
+            android:layout_marginRight="2.0dip"
+            android:layout_weight="3.0"
+            android:background="@drawable/search_button"
+            android:text="搜索"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/friend_search"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:queryHint="搜索好友"
+        >
+
+    </SearchView>
+    <ListView
+        android:id="@+id/friend_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

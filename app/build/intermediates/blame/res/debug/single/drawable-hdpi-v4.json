@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_attention.jpg",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable-hdpi\\user_attention.jpg"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome_android.jpg",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable-hdpi\\welcome_android.jpg"
+    }
+]

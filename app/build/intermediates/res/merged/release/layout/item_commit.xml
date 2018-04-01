@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/gainsboro">
+	
+	<LinearLayout 
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/me_set_up_input_box"
+            android:orientation="vertical"
+        >
+            
+        <LinearLayout
+            android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginStart="10.0dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                >
+
+                <TextView
+                    android:id="@+id/user_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="神回复"
+                    android:textColor="#ffa8835c"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:id="@+id/iv_topic_edit_group"
+                    android:layout_width="27.0dip"
+                    android:layout_height="14.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_toRightOf="@id/user_names"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/group_edit_img" />
+
+                <TextView
+                    android:id="@+id/commit_lou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10.0dip"
+                    android:text="第1楼"
+                    android:textColor="#ffa8835c"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/topic_times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1分钟前"
+                    android:textColor="#ffccc6bb" />
+            </RelativeLayout>
+            
+            <TextView 
+	    android:id="@+id/commit_user"
+	    style="@style/TextTheme"
+	    android:padding="5dp"
+	    android:text="起居之不时，饮食之无节，侈于嗜欲，而吝于运动，此数者，治病于大源也。"
+	    android:layout_margin="5dp"
+	    android:paddingBottom="10.0dip"
+	    android:textColor="#ff2891e2"
+        android:paddingTop="10.0dip"
+	    />
+
+            
+            
+        </LinearLayout>
+    </LinearLayout>
+            
+        </LinearLayout>
+</LinearLayout>

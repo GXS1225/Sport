@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8.0dip"
+        android:paddingRight="7.5dip"
+        android:paddingTop="8.0dip" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingRight="4.0dip"
+            android:paddingTop="4.0dip" >
+
+            <TextView
+                android:id="@+id/tv_hair_item_date"
+                android:layout_width="33.0dip"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="right"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ffa6a6a6"
+                android:textSize="11.0sp" />
+
+                <ImageView 
+        android:id="@+id/health_photo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/title"
+        android:scaleType="center"/>
+        </RelativeLayout>
+
+        <LinearLayout 
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/me_set_up_input_box"
+            android:orientation="vertical">
+            
+        <LinearLayout
+            android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginStart="10.0dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip" >
+
+                <TextView
+                    android:id="@+id/health_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="用户名称"
+                    android:textColor="#ffa8835c"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:id="@+id/iv_topic_edit_group"
+                    android:layout_width="27.0dip"
+                    android:layout_height="14.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_toRightOf="@id/health_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/group_edit_img" />
+
+                <TextView
+                    android:id="@+id/reply_detail_floor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10.0dip"
+                    android:text="精华区"
+                    android:textColor="#ffa8835c"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/topic_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1分钟前"
+                    android:textColor="#ffccc6bb" />
+            </RelativeLayout>
+            
+            <TextView 
+	    android:id="@+id/health_context"
+	    style="@style/TextTheme"
+	    android:padding="5dp"
+	    android:text="拦路雨偏似雪花 饮泣的你冻吗
+这风褛我给你磨到有襟花"
+	    android:layout_margin="5dp"
+	    android:paddingBottom="10.0dip"
+	    android:textColor="#ffa8835c"
+	    
+        android:paddingTop="10.0dip"
+	    />
+
+            
+            
+        </LinearLayout>
+    </LinearLayout>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

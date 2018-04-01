@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.bzu.project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <!-- 电源管理权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+>
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="edu.bzu.project.utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="WFD8u9PbTxbIOE8CkGk6QeFn" />
+
+        <activity
+            android:name="edu.bzu.project.activity.Welcome"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="edu.bzu.project.activity.RegisterActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.LoginActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.MainActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.GuideBoy2" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.GuideBoy3" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.GuideBoy4" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.GuideGril2" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.GuideGril3" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.GuideGril4" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.SetAim" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.Guide" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.map.BMapActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.map.ShowInfoActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.EditActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.LookActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.CommentActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.AttentionActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.PaiHangActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.AttentionInfoActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.PKActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.LookAttentionActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.BBS.Health_InfoActivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.AddSport_Activity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.AddExercise_Acivity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.LookSport_Activity" >
+        </activity>
+        <activity android:name="edu.bzu.project.activity.setting.AlbumActivity" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+        <service android:name="edu.bzu.project.service.StepService" >
+        </service>
+
+        <receiver android:name="edu.bzu.project.receiver.PedometerReceiver" >
+            <intent-filter>
+                <action android:name="edu.bzu.project.PedometerReceiver.SERVICE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+
+                <!-- ※这里需要将1105785901改成你在腾讯申请后得到的AppId -->
+                <data android:scheme="tencent1105785901" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 集成line客户端登录授权，需要添如下格式的过滤器 -->
+        <intent-filter>
+            <data android:scheme="line.1477692153" />
+
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="cn.sharesdk.demo.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

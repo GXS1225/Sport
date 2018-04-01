@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTabView">
+       <attr name="bottom_Lables" format="reference"/>
+    </declare-styleable>
+    
+     <declare-styleable name="ExpandedCircleProgressView">
+        <attr name="innerCircleSize" format="dimension" />
+        <attr name="outerCircleSize" format="dimension" />
+        
+        <attr name="innerCircleColor" format="color" />
+        <attr name="outerCircleColor" format="color" />
+        
+        <attr name="textProgressColor" format="color" />
+        <attr name="progressCircleColor" format="color" />
+        
+        <attr name="outerCircleLineWidth" format="dimension" />
+        
+        <attr name="textProgressSize" format="dimension" />
+    </declare-styleable>
+    
+    <!-- 带有数字进度条的attrs -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/guide2_bac">
+
+<LinearLayout 
+    android:id="@+id/pop_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+     >
+     
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="130dp">
+
+    <Button
+        android:id="@+id/btn_cycle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_style_alert_dialog_special"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_work"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/btn_cycle"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_run"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/btn_cycle"
+        android:background="@drawable/btn_style_alert_dialog_cancel"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+        
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dip"
+            android:background="@drawable/btn_cancle"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+
+    <TextView
+        android:id="@+id/sport_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="请选择："
+        android:textColor="@color/gray"
+        android:textSize="20dp"/>
+
+    <Button 
+        android:id="@+id/dialog_bc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bind_cancel"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:text="保存"/>
+     <Button 
+         android:id="@+id/dialog_bbc"
+         android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bind_cancel"
+        android:textColor="@color/white"
+        android:text="不保存"/>
+      <Button 
+        android:id="@+id/dialog_qx"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bind_cancel"
+        android:textColor="@color/white"
+        android:text="取消"/>
+
+</LinearLayout>

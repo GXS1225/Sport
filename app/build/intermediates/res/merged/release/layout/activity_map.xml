@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/guide2_bac">
+       <RelativeLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="40dip"
+	       android:background="@drawable/top"
+	       android:layout_alignParentTop="true"
+	        >
+	       <Button
+	           android:id="@+id/map_back"
+	           android:layout_width="24dip"
+	           android:layout_height="20dip"
+	           android:layout_alignParentLeft="true"
+	           android:layout_centerVertical="true"
+	           android:layout_marginLeft="10dip"
+	           android:background="@drawable/back_btn" />
+	
+	       <TextView
+	           android:id="@+id/map_title"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:gravity="center_vertical"
+	          android:layout_centerInParent="true"
+	           android:text="添加活动"
+	           android:textColor="#ffffff"
+	           android:textSize="20dip" />
+	
+	       <Button
+	           android:id="@+id/map_success"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentRight="true"
+	           android:layout_centerVertical="true"
+	           android:layout_marginRight="10dip"
+	           android:text="回到今天"
+	           android:textColor="@color/white"
+	           android:textSize="15sp"
+	           android:background="@null" />
+	</RelativeLayout>
+     <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" 
+        android:layout_weight="1"/>
+
+	<SlidingDrawer
+        android:id="@+id/myslidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:layout_weight="18" >
+
+        <RelativeLayout
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/handlebg"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/handle" />
+
+            <ImageView
+                android:id="@+id/arrowImage"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/up" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/arrowImage"
+                android:paddingLeft="4dip"
+                android:textColor="#ffffffff" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#4455AA" >
+            <TextView
+                android:id="@+id/show_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在跑步"
+                android:textSize="16sp"/>"
+            <FrameLayout
+                android:id="@+id/sport_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="记" />
+
+            <Button
+                android:id="@+id/btn_start"
+                   android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始" />
+
+            <Button
+                android:id="@+id/btn_stop"
+                 android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="暂停" />
+
+            <Button
+                android:id="@+id/btn_track"
+                  android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="回放" />
+
+            <Button
+                android:id="@+id/btn_end"
+                   android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="结束" />
+             <Button
+                android:id="@+id/btn_save"
+                 android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存" />
+             <Button
+                android:id="@+id/btn_read"
+                 android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="读取" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</LinearLayout>

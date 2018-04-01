@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="300dip"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@drawable/guide2_bac">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/radius_border_pop_gray_title"
+		android:orientation="horizontal" >
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dip"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="50dip"
+			android:layout_marginRight="50dip"
+			android:gravity="center"
+			android:text="创建新运动  "
+			android:textColor="#333333"
+			android:textSize="15dip" />
+	</LinearLayout>
+
+
+         <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_below="@id/title"
+	        android:gravity="center_vertical"
+	        android:padding="5dp">
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content">
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="名称:"
+	                android:textSize="@dimen/mq_size14"
+	                />
+	            <EditText 
+	                android:id="@+id/create_name"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:minWidth="200dp"
+	               />
+	        </LinearLayout>
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="1px"
+	            android:background="@color/light_grey"/>
+	         <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            >
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="热量:"
+	                android:textSize="@dimen/mq_size14"
+	                />
+	            <EditText 
+	                android:id="@+id/create_qianka"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:minWidth="150dp"
+	               />
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="千卡/60分钟"
+	                android:textColor="@color/light_grey"
+	                android:textSize="@dimen/mq_size12"
+	                android:layout_gravity="right|center"/>
+	        </LinearLayout>
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="1px"
+	            android:background="@color/light_grey"/>
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	            android:layout_gravity="center"
+	            android:text="没办法！ 只能让你创建咯, 怪我咯！"/>
+	    </LinearLayout>
+   
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:background="@drawable/radius_border_pop_gray_bottom"
+		android:orientation="horizontal" >
+		<RelativeLayout
+			android:layout_width="0dip"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" >
+            <Button
+                android:layout_width="80dip"
+                android:id="@+id/dialog_sport_ok"
+                android:layout_height="35dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ensure_button_sure_bg"
+                android:text="确认"
+                android:textColor="#ffffff"
+                android:textSize="15dip" />
+		</RelativeLayout>
+		<RelativeLayout
+		
+			android:layout_width="0dip"
+			android:layout_height="fill_parent"
+			android:layout_weight="1" >
+            <Button
+                android:layout_width="80dip"
+                android:id="@+id/dialog_sport_no"
+                android:layout_height="35dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ensure_button_cancel_bg"
+                android:text="取消"
+                android:textColor="#ffffff"
+                android:textSize="15dip" />
+
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

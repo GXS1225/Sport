@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    >
+    <RelativeLayout 
+        android:id="@+id/circle_title"
+        android:paddingTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_bg">
+        <TextView 
+            android:id="@+id/circle_riqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"            
+            android:text="今天"
+            android:textSize="16sp"/>
+        <ImageButton 
+            android:id="@+id/circle_today"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/actionbar_item_today"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/circle_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+	      android:id="@id/home_viewpage"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+            android:background="@drawable/bg_all"
+	      >
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+    
+</RelativeLayout>

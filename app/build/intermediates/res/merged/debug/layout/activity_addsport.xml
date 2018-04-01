@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:id="@+id/hair_topic_layout"
+		android:layout_width="match_parent"
+		android:layout_height="50dip"
+		android:background="@drawable/top"
+		>
+		<ImageButton
+			android:id="@+id/addsport_back"
+			android:layout_width="23dip"
+			android:layout_height="18dip"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="10dip"
+			android:background="@drawable/back_btn" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:orientation="horizontal"
+			android:gravity="center">
+			<RadioGroup
+				android:id="@+id/sport_radioGroup"
+				android:layout_width="200dip"
+				android:layout_height="35.0dip"
+				android:gravity="center_horizontal|center_vertical"
+
+				android:background="@drawable/tab_bg"
+				android:orientation="horizontal" >
+
+				<RadioButton
+					android:id="@+id/btn_remen_tag"
+					android:layout_width="0.0dip"
+					android:layout_height="fill_parent"
+					android:layout_weight="1.0"
+					android:background="@drawable/radio_recomm_selector"
+					android:button="@null"
+					android:checked="true"
+					android:gravity="center"
+					android:text="热门"
+					android:textColor="@drawable/wp_text_selector"
+					android:textSize="12.0sp" />
+				<View
+					android:layout_width="1dip"
+					android:layout_height="30dp"
+					android:background="#D0D0D0"
+					android:layout_gravity="center"
+					/>
+
+				<RadioButton
+					android:id="@+id/btn_changyong_tag"
+					android:layout_width="0.0dip"
+					android:layout_height="fill_parent"
+					android:layout_weight="1.0"
+					android:background="@drawable/radio_new_selector"
+					android:button="@null"
+					android:gravity="center"
+					android:text="常用"
+					android:textColor="@drawable/wp_text_selector"
+					android:textSize="12.0sp" />
+
+				<View
+					android:layout_width="1dip"
+					android:layout_height="30dp"
+					android:background="#D0D0D0"
+					android:layout_gravity="center"
+					/>
+
+				<RadioButton
+					android:id="@+id/btn_zidingyi_tag"
+					android:layout_width="0.0dip"
+					android:layout_height="fill_parent"
+					android:layout_weight="1.0"
+					android:background="@drawable/radio_topic_selector"
+					android:button="@null"
+					android:gravity="center"
+					android:text="自定义"
+					android:textColor="@drawable/wp_text_selector"
+					android:textSize="12.0sp" />
+			</RadioGroup>
+		</LinearLayout>
+	</RelativeLayout>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/addsport_viewpager"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="7"
+		android:layout_below="@+id/hair_topic_layout"
+		android:background="@color/gainsboro"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:background="@color/gray"
+		android:gravity="center">
+		<TextView
+			android:id="@+id/items"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="3"
+			android:textSize="19sp"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="  项    /"
+			android:textSize="10sp"/>
+		<TextView
+			android:id="@+id/items_qianka"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="133"
+			android:textSize="19sp"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="  千卡"
+			android:textSize="10sp"/>
+		<Button
+			android:layout_marginLeft="5dp"
+			android:id="@+id/sport_ok"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/edittext_bg_shape"
+			android:text="确定"/>
+	</LinearLayout>
+
+</LinearLayout>

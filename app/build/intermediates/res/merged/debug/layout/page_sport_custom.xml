@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+	<include layout="@layout/item_custom_header"/>
+    <edu.bzu.project.view.SwipeMenuListView
+        android:id="@+id/swipeMenuListView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </edu.bzu.project.view.SwipeMenuListView>
+
+</LinearLayout>

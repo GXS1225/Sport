@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\top.PNG",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable-mdpi\\top.PNG"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\search_group_background.jpg",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable-mdpi\\search_group_background.jpg"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\register_bac.jpg",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable-mdpi\\register_bac.jpg"
+    },
+    {
+        "merged": "D:\\Android file\\q\\Running\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\guide2_bac.jpg",
+        "source": "D:\\Android file\\q\\Running\\app\\src\\main\\res\\drawable-mdpi\\guide2_bac.jpg"
+    }
+]

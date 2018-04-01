@@ -1,0 +1,436 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/top" >
+
+                <TextView
+                    android:id="@+id/healthinfo_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical"
+                    android:text="发现"
+                    android:textColor="#ffffff"
+                    android:textSize="20dip" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10px"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:padding="8dp" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/find_mubiao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="7000"
+                            android:textColor="#FFA042"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="我的目标"
+                            android:textColor="#000000"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/find_dengji"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="3.0dip"
+                            android:layout_toRightOf="@+id/post_info_username"
+                            android:background="@drawable/bg_find_dengji"
+                            android:text=" lv1"
+                            android:gravity="center"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="我的等级"
+                            android:textColor="#000000"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@color/white" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/find_fens"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="58"
+                            android:textColor="#FFA042"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="我的粉丝"
+                            android:textColor="#000000"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="#D0D0D0"
+                    android:layout_gravity="center"
+                    />r
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="4.5dip"
+                android:orientation="horizontal" > 4
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="60dp"
+                    android:background="#D0D0D0"
+                    android:layout_gravity="center"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/sport_add_lay"
+                    android:layout_width="0.0dip"
+                    android:layout_height="80dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_marginRight="8.5dip"
+                        android:background="@drawable/find_sport"
+                        android:id="@+id/imageView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我的运动"
+                        android:textColor="@color/zone_list_header"
+                        android:textSize="17.0sp"
+                        android:id="@+id/textView3" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="60dp"
+                    android:background="#D0D0D0"
+                    android:layout_gravity="center"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/sport_look_lay"
+                    android:layout_width="0.0dip"
+                    android:layout_height="80dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_marginRight="8.5dip"
+                        android:background="@drawable/find_sport_view" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="查看运动"
+                        android:textColor="@color/zone_list_header"
+                        android:textSize="17.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:paddingLeft="12.5dip"
+                android:paddingRight="12.5dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4.5dip"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/myScore_lay"
+                        android:layout_width="0.0dip"
+                        android:layout_height="80dip"
+                        android:layout_weight="1.0"
+
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_marginRight="8.5dip"
+                            android:background="@drawable/find_ranking2"
+                            android:layout_weight="0.01"
+                            android:id="@+id/imageView5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的排名"
+                            android:textColor="@color/zone_list_header"
+                            android:textSize="17.0sp"
+                            android:layout_marginRight="10dp"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="60dp"
+                        android:background="#D0D0D0"
+                        android:layout_gravity="center"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/paihang_lay"
+                        android:layout_width="0.0dip"
+                        android:layout_height="80dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_marginRight="8.5dip"
+                            android:background="@drawable/find_rankinglist" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="排行榜"
+                            android:textColor="@color/zone_list_header"
+                            android:textSize="17.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4.5dip"
+                    android:orientation="horizontal" >
+
+
+                    <LinearLayout
+                        android:id="@+id/look_pk"
+                        android:layout_width="0.0dip"
+                        android:layout_height="80dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="8.5dip"
+                            android:background="@drawable/find_match"
+                            android:id="@+id/imageView4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pk竞技场"
+                            android:textColor="@color/zone_list_header"
+                            android:textSize="17.0sp"
+                            android:id="@+id/textView4"
+                            android:layout_marginRight="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="60dp"
+                        android:background="#D0D0D0"
+                        android:layout_gravity="center"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/layout_pk"
+                        android:layout_width="0.0dip"
+                        android:layout_height="80dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+                        <ImageView
+                            android:layout_marginLeft="18dp"
+                            android:layout_width="35.0dip"
+                            android:layout_height="35.0dip"
+                            android:layout_marginRight="8.5dip"
+                            android:background="@drawable/find_win"
+                            android:id="@+id/imageView3" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的战绩"
+                            android:textColor="@color/zone_list_header"
+                            android:textSize="17.0sp"
+                            android:id="@+id/textView5" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.5dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/guanzhu_lay"
+                    android:layout_width="0.0dip"
+                    android:layout_height="80dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_marginRight="8.5dip"
+                        android:background="@drawable/find_myfriend" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我的好友"
+                        android:textColor="@color/zone_list_header"
+                        android:textSize="17.0sp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="60dp"
+                    android:background="#D0D0D0"
+                    android:layout_gravity="center"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/find_guanzhu_lay"
+                    android:layout_width="0.0dip"
+                    android:layout_height="80dip"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_marginRight="8.5dip"
+                        android:background="@drawable/find_seek" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="查找好友"
+                        android:textColor="@color/zone_list_header"
+                        android:textSize="17.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_Gray_light" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
